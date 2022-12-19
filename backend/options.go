@@ -3,10 +3,10 @@ package backend
 import (
 	"time"
 
-	"github.com/cschleiden/go-workflows/internal/logger"
-	mi "github.com/cschleiden/go-workflows/internal/metrics"
-	"github.com/cschleiden/go-workflows/log"
-	"github.com/cschleiden/go-workflows/metrics"
+	"github.com/paveliak/go-workflows/internal/logger"
+	mi "github.com/paveliak/go-workflows/internal/metrics"
+	"github.com/paveliak/go-workflows/log"
+	"github.com/paveliak/go-workflows/metrics"
 	"go.opentelemetry.io/otel/trace"
 )
 

@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cschleiden/go-workflows/internal/sync"
+	"github.com/paveliak/go-workflows/internal/sync"
 	"github.com/stretchr/testify/require"
 )
 

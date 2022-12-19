@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/cschleiden/go-workflows/internal/converter"
-	"github.com/cschleiden/go-workflows/internal/payload"
+	"github.com/paveliak/go-workflows/internal/converter"
+	"github.com/paveliak/go-workflows/internal/payload"
 	"github.com/stretchr/testify/require"
 )
 

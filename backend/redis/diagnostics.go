@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/cschleiden/go-workflows/diag"
+	"github.com/paveliak/go-workflows/diag"
 	"github.com/go-redis/redis/v8"
 )
 

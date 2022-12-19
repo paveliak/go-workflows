@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cschleiden/go-workflows/internal/core"
-	"github.com/cschleiden/go-workflows/internal/history"
-	"github.com/cschleiden/go-workflows/internal/task"
+	"github.com/paveliak/go-workflows/internal/core"
+	"github.com/paveliak/go-workflows/internal/history"
+	"github.com/paveliak/go-workflows/internal/task"
 )
 
 func (rb *redisBackend) GetActivityTask(ctx context.Context) (*task.Activity, error) {

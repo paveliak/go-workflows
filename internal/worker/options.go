@@ -3,7 +3,7 @@ package worker
 import (
 	"time"
 
-	"github.com/cschleiden/go-workflows/internal/workflow"
+	"github.com/paveliak/go-workflows/internal/workflow"
 )
 
 type Options struct {

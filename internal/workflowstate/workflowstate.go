@@ -5,12 +5,12 @@ import (
 	"time"
 
 	"github.com/benbjohnson/clock"
-	"github.com/cschleiden/go-workflows/internal/command"
-	"github.com/cschleiden/go-workflows/internal/converter"
-	"github.com/cschleiden/go-workflows/internal/core"
-	"github.com/cschleiden/go-workflows/internal/payload"
-	"github.com/cschleiden/go-workflows/internal/sync"
-	"github.com/cschleiden/go-workflows/log"
+	"github.com/paveliak/go-workflows/internal/command"
+	"github.com/paveliak/go-workflows/internal/converter"
+	"github.com/paveliak/go-workflows/internal/core"
+	"github.com/paveliak/go-workflows/internal/payload"
+	"github.com/paveliak/go-workflows/internal/sync"
+	"github.com/paveliak/go-workflows/log"
 )
 
 type key int

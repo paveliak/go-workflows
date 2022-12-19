@@ -5,8 +5,8 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/cschleiden/go-workflows/diag"
-	"github.com/cschleiden/go-workflows/internal/core"
+	"github.com/paveliak/go-workflows/diag"
+	"github.com/paveliak/go-workflows/internal/core"
 )
 
 var _ diag.Backend = (*sqliteBackend)(nil)

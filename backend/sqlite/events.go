@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cschleiden/go-workflows/internal/history"
+	"github.com/paveliak/go-workflows/internal/history"
 )
 
 func getPendingEvents(ctx context.Context, tx *sql.Tx, instanceID string) ([]history.Event, error) {

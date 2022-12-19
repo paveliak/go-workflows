@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/cschleiden/go-workflows/internal/args"
-	"github.com/cschleiden/go-workflows/internal/converter"
-	"github.com/cschleiden/go-workflows/internal/payload"
-	"github.com/cschleiden/go-workflows/internal/sync"
+	"github.com/paveliak/go-workflows/internal/args"
+	"github.com/paveliak/go-workflows/internal/converter"
+	"github.com/paveliak/go-workflows/internal/payload"
+	"github.com/paveliak/go-workflows/internal/sync"
 )
 
 type Workflow interface{}

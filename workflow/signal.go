@@ -3,10 +3,10 @@ package workflow
 import (
 	"fmt"
 
-	"github.com/cschleiden/go-workflows/internal/command"
-	"github.com/cschleiden/go-workflows/internal/converter"
-	"github.com/cschleiden/go-workflows/internal/workflowstate"
-	"github.com/cschleiden/go-workflows/internal/workflowtracer"
+	"github.com/paveliak/go-workflows/internal/command"
+	"github.com/paveliak/go-workflows/internal/converter"
+	"github.com/paveliak/go-workflows/internal/workflowstate"
+	"github.com/paveliak/go-workflows/internal/workflowtracer"
 )
 
 func NewSignalChannel[T any](ctx Context, name string) Channel[T] {

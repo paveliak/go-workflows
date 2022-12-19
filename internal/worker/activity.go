@@ -7,13 +7,13 @@ import (
 	"time"
 
 	"github.com/benbjohnson/clock"
-	"github.com/cschleiden/go-workflows/backend"
-	"github.com/cschleiden/go-workflows/internal/activity"
-	"github.com/cschleiden/go-workflows/internal/history"
-	"github.com/cschleiden/go-workflows/internal/metrickeys"
-	"github.com/cschleiden/go-workflows/internal/task"
-	"github.com/cschleiden/go-workflows/internal/workflow"
-	"github.com/cschleiden/go-workflows/metrics"
+	"github.com/paveliak/go-workflows/backend"
+	"github.com/paveliak/go-workflows/internal/activity"
+	"github.com/paveliak/go-workflows/internal/history"
+	"github.com/paveliak/go-workflows/internal/metrickeys"
+	"github.com/paveliak/go-workflows/internal/task"
+	"github.com/paveliak/go-workflows/internal/workflow"
+	"github.com/paveliak/go-workflows/metrics"
 )
 
 type ActivityWorker struct {

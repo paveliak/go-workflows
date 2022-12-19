@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cschleiden/go-workflows/client"
-	"github.com/cschleiden/go-workflows/worker"
-	"github.com/cschleiden/go-workflows/workflow"
+	"github.com/paveliak/go-workflows/client"
+	"github.com/paveliak/go-workflows/worker"
+	"github.com/paveliak/go-workflows/workflow"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 )

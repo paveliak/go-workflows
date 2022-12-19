@@ -3,8 +3,8 @@ package activity
 import (
 	"context"
 
-	"github.com/cschleiden/go-workflows/log"
-	"github.com/cschleiden/go-workflows/workflow"
+	"github.com/paveliak/go-workflows/log"
+	"github.com/paveliak/go-workflows/workflow"
 )
 
 type ActivityState struct {

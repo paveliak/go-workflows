@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cschleiden/go-workflows/backend"
-	"github.com/cschleiden/go-workflows/internal/core"
-	"github.com/cschleiden/go-workflows/internal/history"
-	"github.com/cschleiden/go-workflows/workflow"
+	"github.com/paveliak/go-workflows/backend"
+	"github.com/paveliak/go-workflows/internal/core"
+	"github.com/paveliak/go-workflows/internal/history"
+	"github.com/paveliak/go-workflows/workflow"
 	"github.com/go-redis/redis/v8"
 )
 

@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cschleiden/go-workflows/internal/fn"
-	"github.com/cschleiden/go-workflows/internal/sync"
+	"github.com/paveliak/go-workflows/internal/fn"
+	"github.com/paveliak/go-workflows/internal/sync"
 	"github.com/stretchr/testify/require"
 )
 

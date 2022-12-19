@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cschleiden/go-workflows/internal/history"
-	"github.com/cschleiden/go-workflows/internal/tracing"
+	"github.com/paveliak/go-workflows/internal/history"
+	"github.com/paveliak/go-workflows/internal/tracing"
 	"github.com/go-redis/redis/v8"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"

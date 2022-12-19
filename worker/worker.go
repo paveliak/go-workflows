@@ -6,10 +6,10 @@ import (
 	"sync"
 
 	"github.com/benbjohnson/clock"
-	"github.com/cschleiden/go-workflows/backend"
-	internal "github.com/cschleiden/go-workflows/internal/worker"
-	workflowinternal "github.com/cschleiden/go-workflows/internal/workflow"
-	"github.com/cschleiden/go-workflows/workflow"
+	"github.com/paveliak/go-workflows/backend"
+	internal "github.com/paveliak/go-workflows/internal/worker"
+	workflowinternal "github.com/paveliak/go-workflows/internal/workflow"
+	"github.com/paveliak/go-workflows/workflow"
 )
 
 type WorkflowRegistry interface {

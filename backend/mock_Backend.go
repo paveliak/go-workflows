@@ -5,16 +5,16 @@ package backend
 import (
 	context "context"
 
-	core "github.com/cschleiden/go-workflows/internal/core"
-	history "github.com/cschleiden/go-workflows/internal/history"
+	core "github.com/paveliak/go-workflows/internal/core"
+	history "github.com/paveliak/go-workflows/internal/history"
 
-	log "github.com/cschleiden/go-workflows/log"
+	log "github.com/paveliak/go-workflows/log"
 
-	metrics "github.com/cschleiden/go-workflows/metrics"
+	metrics "github.com/paveliak/go-workflows/metrics"
 
 	mock "github.com/stretchr/testify/mock"
 
-	task "github.com/cschleiden/go-workflows/internal/task"
+	task "github.com/paveliak/go-workflows/internal/task"
 
 	trace "go.opentelemetry.io/otel/trace"
 )

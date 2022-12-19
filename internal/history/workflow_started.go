@@ -1,8 +1,8 @@
 package history
 
 import (
-	"github.com/cschleiden/go-workflows/internal/core"
-	"github.com/cschleiden/go-workflows/internal/payload"
+	"github.com/paveliak/go-workflows/internal/core"
+	"github.com/paveliak/go-workflows/internal/payload"
 )
 
 type ExecutionStartedAttributes struct {

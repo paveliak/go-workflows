@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"github.com/cschleiden/go-workflows/internal/core"
-	"github.com/cschleiden/go-workflows/internal/metrickeys"
-	"github.com/cschleiden/go-workflows/internal/workflow"
-	"github.com/cschleiden/go-workflows/metrics"
+	"github.com/paveliak/go-workflows/internal/core"
+	"github.com/paveliak/go-workflows/internal/metrickeys"
+	"github.com/paveliak/go-workflows/internal/workflow"
+	"github.com/paveliak/go-workflows/metrics"
 	"github.com/jellydator/ttlcache/v3"
 )
 

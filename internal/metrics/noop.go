@@ -3,7 +3,7 @@ package metrics
 import (
 	"time"
 
-	"github.com/cschleiden/go-workflows/metrics"
+	"github.com/paveliak/go-workflows/metrics"
 )
 
 type noopMetricsClient struct {

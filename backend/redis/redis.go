@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cschleiden/go-workflows/backend"
-	"github.com/cschleiden/go-workflows/internal/core"
-	"github.com/cschleiden/go-workflows/internal/history"
-	"github.com/cschleiden/go-workflows/internal/metrickeys"
-	"github.com/cschleiden/go-workflows/log"
-	"github.com/cschleiden/go-workflows/metrics"
+	"github.com/paveliak/go-workflows/backend"
+	"github.com/paveliak/go-workflows/internal/core"
+	"github.com/paveliak/go-workflows/internal/history"
+	"github.com/paveliak/go-workflows/internal/metrickeys"
+	"github.com/paveliak/go-workflows/log"
+	"github.com/paveliak/go-workflows/metrics"
 	"github.com/go-redis/redis/v8"
 	"go.opentelemetry.io/otel/trace"
 )

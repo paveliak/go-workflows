@@ -1,4 +1,4 @@
-module github.com/cschleiden/go-workflows
+module github.com/paveliak/go-workflows
 
 go 1.18
 

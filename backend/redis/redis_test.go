@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cschleiden/go-workflows/backend"
-	"github.com/cschleiden/go-workflows/backend/test"
-	"github.com/cschleiden/go-workflows/internal/history"
-	"github.com/cschleiden/go-workflows/log"
+	"github.com/paveliak/go-workflows/backend"
+	"github.com/paveliak/go-workflows/backend/test"
+	"github.com/paveliak/go-workflows/internal/history"
+	"github.com/paveliak/go-workflows/log"
 	"github.com/go-redis/redis/v8"
 )
 

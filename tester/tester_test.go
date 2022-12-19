@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cschleiden/go-workflows/internal/sync"
-	"github.com/cschleiden/go-workflows/workflow"
+	"github.com/paveliak/go-workflows/internal/sync"
+	"github.com/paveliak/go-workflows/workflow"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

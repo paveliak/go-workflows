@@ -4,11 +4,11 @@ import (
 	"testing"
 
 	"github.com/benbjohnson/clock"
-	"github.com/cschleiden/go-workflows/internal/converter"
-	"github.com/cschleiden/go-workflows/internal/core"
-	"github.com/cschleiden/go-workflows/internal/logger"
-	"github.com/cschleiden/go-workflows/internal/payload"
-	"github.com/cschleiden/go-workflows/internal/sync"
+	"github.com/paveliak/go-workflows/internal/converter"
+	"github.com/paveliak/go-workflows/internal/core"
+	"github.com/paveliak/go-workflows/internal/logger"
+	"github.com/paveliak/go-workflows/internal/payload"
+	"github.com/paveliak/go-workflows/internal/sync"
 	"github.com/google/uuid"
 	"github.com/stretchr/testify/require"
 )

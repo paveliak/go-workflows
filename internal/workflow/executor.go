@@ -7,16 +7,16 @@ import (
 	"reflect"
 
 	"github.com/benbjohnson/clock"
-	"github.com/cschleiden/go-workflows/internal/command"
-	"github.com/cschleiden/go-workflows/internal/core"
-	"github.com/cschleiden/go-workflows/internal/history"
-	"github.com/cschleiden/go-workflows/internal/payload"
-	"github.com/cschleiden/go-workflows/internal/sync"
-	"github.com/cschleiden/go-workflows/internal/task"
-	"github.com/cschleiden/go-workflows/internal/tracing"
-	"github.com/cschleiden/go-workflows/internal/workflowstate"
-	"github.com/cschleiden/go-workflows/internal/workflowtracer"
-	"github.com/cschleiden/go-workflows/log"
+	"github.com/paveliak/go-workflows/internal/command"
+	"github.com/paveliak/go-workflows/internal/core"
+	"github.com/paveliak/go-workflows/internal/history"
+	"github.com/paveliak/go-workflows/internal/payload"
+	"github.com/paveliak/go-workflows/internal/sync"
+	"github.com/paveliak/go-workflows/internal/task"
+	"github.com/paveliak/go-workflows/internal/tracing"
+	"github.com/paveliak/go-workflows/internal/workflowstate"
+	"github.com/paveliak/go-workflows/internal/workflowtracer"
+	"github.com/paveliak/go-workflows/log"
 	"go.opentelemetry.io/otel/attribute"
 	"go.opentelemetry.io/otel/trace"
 )
@@ -149,7 +149,7 @@ func (e *executor) ExecuteTask(ctx context.Context, t *task.Workflow) (*Executio
 	// created. To reorder, we find the WorkflowExecutionStarted
 	// event, then move it to the first position in t.NewEvents.
 	// t.NewEvents is modified in-place.
-	// See: https://github.com/cschleiden/go-workflows/issues/143
+	// See: https://github.com/paveliak/go-workflows/issues/143
 	if !e.wfStartedEventSeen {
 		for i, ev := range t.NewEvents {
 			if ev.Type == history.EventType_WorkflowExecutionStarted {

@@ -8,12 +8,12 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/cschleiden/go-workflows/backend"
-	"github.com/cschleiden/go-workflows/client"
-	"github.com/cschleiden/go-workflows/diag"
-	"github.com/cschleiden/go-workflows/samples"
+	"github.com/paveliak/go-workflows/backend"
+	"github.com/paveliak/go-workflows/client"
+	"github.com/paveliak/go-workflows/diag"
+	"github.com/paveliak/go-workflows/samples"
 
-	"github.com/cschleiden/go-workflows/worker"
+	"github.com/paveliak/go-workflows/worker"
 
 	"github.com/google/uuid"
 )
